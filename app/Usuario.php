@@ -1,12 +1,12 @@
 <?php
 
-namespace App;
+namespace sisVeterinaria;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use App\Http\Middleware\Authenticate;
+use sisVeterinaria\Http\Middleware\Authenticate;
 
 class Usuario extends Authenticatable
 {

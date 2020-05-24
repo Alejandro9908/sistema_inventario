@@ -1,15 +1,15 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace sisVeterinaria\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Redirect;
-use App\Http\Requests\MascotaRequest;
+use sisVeterinaria\Http\Requests\MascotaRequest;
 use Illuminate\Support\Facades\DB;
-use App\Mascota;
+use sisVeterinaria\Mascota;
 
-use App\Http\Requests;
+use sisVeterinaria\Http\Requests;
 
 class MascotaController extends Controller
 {

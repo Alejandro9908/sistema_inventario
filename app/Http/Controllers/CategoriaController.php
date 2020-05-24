@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace sisVeterinaria\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Http\Requests;
-use App\Categoria;
+use sisVeterinaria\Http\Requests;
+use sisVeterinaria\Categoria;
 use Illuminate\Support\Facades\Redirect;
-use App\Http\Requests\CategoriaRequest;
+use sisVeterinaria\Http\Requests\CategoriaRequest;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Session;
 

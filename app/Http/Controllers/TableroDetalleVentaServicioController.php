@@ -1,19 +1,19 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace sisVeterinaria\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Input;
-use App\Http\Requests\TableroDetalleVentaServicioRequest;
+use sisVeterinaria\Http\Requests\TableroDetalleVentaServicioRequest;
 use Illuminate\Support\Facades\DB;
-use App\DetalleVentaServicio;
+use sisVeterinaria\DetalleVentaServicio;
 use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Collection;
 use PhpParser\Node\Stmt\TryCatch;
-use App\DetalleVenta;
-use App\Http\Requests;
+use sisVeterinaria\DetalleVenta;
+use sisVeterinaria\Http\Requests;
 
 class TableroDetalleVentaServicioController extends Controller
 {

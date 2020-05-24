@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Requests;
+namespace sisVeterinaria\Http\Requests;
 
-use App\Http\Requests\Request;
+use sisVeterinaria\Http\Requests\Request;
 
 class ServicioRequest extends Request
 {
