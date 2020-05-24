@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Jobs;
+namespace sisVeterinaria\Jobs;
 
 use Illuminate\Bus\Queueable;
 

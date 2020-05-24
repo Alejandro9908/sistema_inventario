@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace sisVeterinaria\Http\Controllers;
 
-use App\Http\Requests;
+use sisVeterinaria\Http\Requests;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller

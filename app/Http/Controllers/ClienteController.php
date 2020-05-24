@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace sisVeterinaria\Http\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
-use App\Http\Requests\ClienteRequest;
+use sisVeterinaria\Http\Requests\ClienteRequest;
 use Illuminate\Support\Facades\DB;
-use App\Cliente;
-use App\Http\Requests;
+use sisVeterinaria\Cliente;
+use sisVeterinaria\Http\Requests;
 
 class ClienteController extends Controller
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace sisVeterinaria\Http\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Input;
-use App\Http\Requests\ProductoRequest;
-use App\Producto;
+use sisVeterinaria\Http\Requests\ProductoRequest;
+use sisVeterinaria\Producto;
 use Illuminate\Support\Facades\DB;
 
 class ProductoController extends Controller{

@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace sisVeterinaria\Http\Controllers\Auth;
 
-use App\User;
+use sisVeterinaria\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use sisVeterinaria\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

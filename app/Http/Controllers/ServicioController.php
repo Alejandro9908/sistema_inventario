@@ -1,17 +1,17 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace sisVeterinaria\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Input;
-use App\Http\Requests\ServicioRequest;
-use App\Servicio;
+use sisVeterinaria\Http\Requests\ServicioRequest;
+use sisVeterinaria\Servicio;
 use Illuminate\Support\Facades\DB;
 
-use App\Http\Requests;
-use App\Http\Requests\TipoServicioRequest;
+use sisVeterinaria\Http\Requests;
+use sisVeterinaria\Http\Requests\TipoServicioRequest;
 
 class ServicioController extends Controller
 {

@@ -21,6 +21,10 @@ class ComposerStaticInitbd1a0d8727c15c30e432188108d704a5
     );
 
     public static $prefixLengthsPsr4 = array (
+        's' => 
+        array (
+            'sisVeterinaria\\' => 15,
+        ),
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
@@ -93,13 +97,13 @@ class ComposerStaticInitbd1a0d8727c15c30e432188108d704a5
             'Collective\\Html\\' => 16,
             'ClassPreloader\\' => 15,
         ),
-        'A' => 
-        array (
-            'App\\' => 4,
-        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'sisVeterinaria\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
+        ),
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
@@ -245,10 +249,6 @@ class ComposerStaticInitbd1a0d8727c15c30e432188108d704a5
         'ClassPreloader\\' => 
         array (
             0 => __DIR__ . '/..' . '/classpreloader/classpreloader/src',
-        ),
-        'App\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 

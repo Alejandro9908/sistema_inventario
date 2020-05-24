@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace sisVeterinaria\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
-use App\Http\Requests\ProveedorRequest;
+use sisVeterinaria\Http\Requests\ProveedorRequest;
 use Illuminate\Support\Facades\DB;
-use App\Proveedor;
+use sisVeterinaria\Proveedor;
 use Carbon\Carbon;
-use App\Http\Requests;
+use sisVeterinaria\Http\Requests;
 
 class ProveedorController extends Controller
 {

@@ -1,18 +1,18 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace sisVeterinaria\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Input;
-use App\Http\Requests\TableroConsultaRequest;
+use sisVeterinaria\Http\Requests\TableroConsultaRequest;
 use Illuminate\Support\Facades\DB;
-use App\Consulta;
+use sisVeterinaria\Consulta;
 use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Collection;
 use PhpParser\Node\Stmt\TryCatch;
-use App\Http\Requests;
+use sisVeterinaria\Http\Requests;
 
 class TableroConsultaController extends Controller
 {

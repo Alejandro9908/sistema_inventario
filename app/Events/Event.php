@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace sisVeterinaria\Events;
 
 abstract class Event
 {

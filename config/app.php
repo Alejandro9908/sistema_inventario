@@ -151,10 +151,10 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        sisVeterinaria\Providers\AppServiceProvider::class,
+        sisVeterinaria\Providers\AuthServiceProvider::class,
+        sisVeterinaria\Providers\EventServiceProvider::class,
+        sisVeterinaria\Providers\RouteServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
 
     ],
