@@ -5,7 +5,7 @@
 	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 		<h3>Listado de Usuarios </h3>
 		@include('acceso.usuario.search')
-		<a href ="usuario/create"><button class = "btn bg-olive">Nuevo Usuario</button></a> 
+		<a href ="usuario/create"><button class = "btn bg-olive"><i class="fa fa-plus"></i>   Nuevo Usuario</button></a> 
 	</div>
 </div>
 <hr>
@@ -49,8 +49,8 @@
 
 					<td>
 					
-						<a href="{{URL::action('UsuarioController@edit',$cat->id_usuario)}}"><button class = "btn bg-purple">Mostrar</button></a>
-						<a href=""><button class= "btn btn-danger">Eliminar</button></a>
+						<a href="{{URL::action('UsuarioController@edit',$cat->id_usuario)}}"><button class = "btn bg-purple"><i class="fa fa-eye"></i></button></a>
+						<a href=""><button class= "btn btn-danger"><i class="fa fa-trash"></i></button></a>
 					
 					</td>
 					

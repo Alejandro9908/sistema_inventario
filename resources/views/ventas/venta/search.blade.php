@@ -4,7 +4,7 @@
 	<div class="input-group">
 		<input type="text" class="form-control" name="searchText" placeholder="Buscar Venta" value="{{$searchText}}">
 		<span class="input-group-btn">
-			<button type="submit" class="btn btn-succes">Buscar</button>
+			<button type="submit" class="btn btn-succes"><i class="fa fa-search"></i></button>
 		</span>
 	</div>
 </div>

@@ -15,7 +15,7 @@
         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
             <h3>Clientes</h3>
             @include('ventas.cliente.search')
-            <a href="cliente/create"><button class="btn bg-olive">Nuevo Cliente</button></a>
+            <a href="cliente/create"><button class="btn bg-olive"><i class="fa fa-plus"></i>   Nuevo Cliente</button></a>
         </div> 
     </div>
     <hr>
@@ -53,8 +53,8 @@
                         <td>{{$cli->fecha_commit}}</td>
                         <td>{{$cli->usuario}}</td>
                         <td>
-                            <a href="{{URL::action('ClienteController@edit',$cli->id_cliente)}}"><button class="btn bg-purple">Mostrar</button></a>
-                            <a href="" data-target="#modal-delete-{{$cli->id_cliente}}" data-toggle="modal"><button class="btn btn-danger">Eliminar</button></a>
+                            <a href="{{URL::action('ClienteController@edit',$cli->id_cliente)}}"><button class="btn bg-purple"><i class="fa fa-eye"></i></button></a>
+                            <a href="" data-target="#modal-delete-{{$cli->id_cliente}}" data-toggle="modal"><button class="btn btn-danger"><i class="fa fa-trash"></i></button></a>
                         </td>
                     </tr>
                     @include('ventas.cliente.modal')

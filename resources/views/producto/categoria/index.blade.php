@@ -15,7 +15,7 @@
         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
             <h3>Categorias</h3>
             @include('producto.categoria.search')
-            <a href="categoria/create"><button class="btn bg-olive">Nueva Categoria</button></a>
+            <a href="categoria/create"><button class="btn bg-olive"><i class="fa fa-plus"></i>   Nueva Categoria</button></a>
         </div> 
     </div>
     <hr>
@@ -35,8 +35,8 @@
                         <td>{{$cat->nombre_categoria}}</td>
                         <td>{{$cat->descripcion}}</td>
                         <td>
-                            <a href="{{URL::action('CategoriaController@edit',$cat->id_categoria)}}"><button class="btn bg-purple">Mostrar</button></a>
-                            <a href="" data-target="#modal-delete-{{$cat->id_categoria}}" data-toggle="modal"><button class="btn btn-danger">Eliminar</button></a>
+                            <a href="{{URL::action('CategoriaController@edit',$cat->id_categoria)}}"><button class="btn bg-purple"><i class="fa fa-eye"></i></button></a>
+                            <a href="" data-target="#modal-delete-{{$cat->id_categoria}}" data-toggle="modal"><button class="btn btn-danger"><i class="fa fa-trash"></i></button></a>
                         </td>
                     </tr>
                     @include('producto.categoria.modal')
