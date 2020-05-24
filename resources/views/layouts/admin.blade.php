@@ -30,7 +30,7 @@
           <!-- mini logo for sidebar mini 50x50 pixels -->
           <span class="logo-mini">C<b>T</b></span>                            <!--LOGO -->
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>CaliTech</b></span>
+          <span class="logo-lg">Cali<b>Tech</b></span>
         </a>
 
         <!-- Header Navbar: style can be found in header.less -->
@@ -48,7 +48,7 @@
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                  <!-- <small class="bg-red">En linea</small>-->
-                  <span class="hidden-xs"><b>Perfil</b></span>
+                  <span class="hidden-xs"><b>{{ Auth::user()->nick }}</b></span>
                 </a>
                 <ul class="dropdown-menu">
                   <!-- User image -->
@@ -192,12 +192,7 @@
         </section><!-- /.content -->
       </div><!-- /.content-wrapper -->
       <!--Fin-Contenido-->
-      <footer class="main-footer">
-        <div class="pull-right hidden-xs">
-          <b>Version</b> 2.3.0
-        </div>
-        <strong>Copyright &copy; 2020</strong> All rights reserved.
-      </footer>
+      
 
       
     <!-- jQuery 2.1.4 -->
