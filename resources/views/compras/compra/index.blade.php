@@ -15,7 +15,7 @@
         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
             <h3>Compras</h3>
             @include('compras.compra.search')
-            <a href="compra/create"><button class="btn bg-olive">Nueva Compra</button></a>
+            <a href="compra/create"><button class="btn bg-olive"><i class="fa fa-plus"></i>   Nueva Compra</button></a>
         </div> 
     </div>
     <hr>
@@ -45,8 +45,8 @@
                         <td>{{$com->total}}</td>
                         <td>{{$com->estado}}</td>
                         <td>
-                            <a href="{{URL::action('CompraController@show',$com->id_compra)}}"><button class="btn bg-purple">Mostrar</button></a>
-                            <a href="" data-target="#modal-delete-{{$com->id_compra}}" data-toggle="modal"><button class="btn btn-danger">Anular</button></a>
+                            <a href="{{URL::action('CompraController@show',$com->id_compra)}}"><button class="btn bg-purple"><i class="fa fa-eye"></i></button></a>
+                            <a href="" data-target="#modal-delete-{{$com->id_compra}}" data-toggle="modal"><button class="btn btn-danger"><i class="fa fa-trash"></i></button></a>
                         </td>
                     </tr>
                     @include('compras.compra.modal')

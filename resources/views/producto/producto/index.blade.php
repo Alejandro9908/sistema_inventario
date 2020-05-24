@@ -15,7 +15,7 @@
         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
             <h3>Articulos</h3>
             @include('producto.producto.search')
-            <a href="producto/create"><button class="btn bg-olive">Nuevo Articulo</button></a>
+            <a href="producto/create"><button class="btn bg-olive"><i class="fa fa-plus"></i>   Nuevo Articulo</button></a>
         </div> 
     </div>
     <hr>
@@ -43,8 +43,8 @@
                         <td>{{$prod->stock}}</td>
                         <td>{{$prod->estado}}</td>
                         <td>
-                            <a href="{{URL::action('ProductoController@edit',$prod->id_producto)}}"><button class="btn bg-purple">Mostrar</button></a>
-                            <a href="" data-target="#modal-delete-{{$prod->id_producto}}" data-toggle="modal"><button class="btn btn-danger">Eliminar</button></a>
+                            <a href="{{URL::action('ProductoController@edit',$prod->id_producto)}}"><button class="btn bg-purple"><i class="fa fa-eye"></i></button></a>
+                            <a href="" data-target="#modal-delete-{{$prod->id_producto}}" data-toggle="modal"><button class="btn btn-danger"><i class="fa fa-trash"></i></button></a>
                         </td>
                     </tr>
                     @include('producto.producto.modal')

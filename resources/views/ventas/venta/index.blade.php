@@ -15,7 +15,7 @@
         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
             <h3>Ventas</h3>
             @include('ventas.venta.search')
-            <a href="venta/create"><button class="btn bg-olive">Nueva Venta</button></a>
+            <a href="venta/create"><button class="btn bg-olive"><i class="fa fa-plus"></i>   Nueva Venta</button></a>
         </div> 
     </div>
     <hr>
@@ -45,8 +45,8 @@
                         <td>{{$ven->total}}</td>
                         <td>{{$ven->estado}}</td>
                         <td>
-                            <a href="{{URL::action('VentaController@show',$ven->id_venta)}}"><button class="btn bg-purple">Mostrar</button></a>
-                            <a href="" data-target="#modal-delete-{{$ven->id_venta}}" data-toggle="modal"><button class="btn btn-danger">Anular</button></a>
+                            <a href="{{URL::action('VentaController@show',$ven->id_venta)}}"><button class="btn bg-purple"><i class="fa fa-eye"></i></button></a>
+                            <a href="" data-target="#modal-delete-{{$ven->id_venta}}" data-toggle="modal"><button class="btn btn-danger"><i class="fa fa-trash"></i></button></a>
                         </td>
                     </tr>
                     @include('ventas.venta.modal')

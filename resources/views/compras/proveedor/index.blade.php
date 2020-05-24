@@ -15,7 +15,7 @@
         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
             <h3>Proveedores</h3>
             @include('compras.proveedor.search')
-            <a href="proveedor/create"><button class="btn bg-olive">Nuevo Proveedor</button></a>
+            <a href="proveedor/create"><button class="btn bg-olive"><i class="fa fa-plus"></i>   Nuevo Proveedor</button></a>
         </div> 
     </div>
     <hr>
@@ -51,8 +51,8 @@
                         <td>{{$prov->fecha_commit}}</td>
                         <td>{{$prov->usuario}}</td>
                         <td>
-                            <a href="{{URL::action('ProveedorController@edit',$prov->id_proveedor)}}"><button class="btn bg-purple">Mostrar</button></a>
-                            <a href="" data-target="#modal-delete-{{$prov->id_proveedor}}" data-toggle="modal"><button class="btn btn-danger">Eliminar</button></a>
+                            <a href="{{URL::action('ProveedorController@edit',$prov->id_proveedor)}}"><button class="btn bg-purple"><i class="fa fa-eye"></i></button></a>
+                            <a href="" data-target="#modal-delete-{{$prov->id_proveedor}}" data-toggle="modal"><button class="btn btn-danger"><i class="fa fa-trash"></i></button></a>
                         </td>
                     </tr>
                     @include('compras.proveedor.modal')

@@ -95,12 +95,12 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="{{url('producto/producto')}}"><i class="fa fa-circle-o"></i>Productos</a></li>
+                <li><a href="{{url('producto/producto')}}"><i class="fa fa-chevron-right"></i>Productos</a></li>
                 @if(Auth::user()->permisos == 'Vendedor')
                
                 @endif
                 @if(Auth::user()->permisos == 'Administrador')
-                <li disabled><a href="{{url('producto/categoria')}}"><i class="fa fa-circle-o"></i>Categorías</a></li>
+                <li disabled><a href="{{url('producto/categoria')}}"><i class="fa fa-chevron-right"></i>Categorías</a></li>
                 @endif
               </ul>
             </li>
@@ -111,8 +111,8 @@
                  <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="{{url('ventas/venta')}}"><i class="fa fa-circle-o"></i>Ventas</a></li>
-                <li><a href="{{url('ventas/cliente')}}"><i class="fa fa-circle-o"></i>Clientes</a></li>
+                <li><a href="{{url('ventas/venta')}}"><i class="fa fa-chevron-right"></i>Ventas</a></li>
+                <li><a href="{{url('ventas/cliente')}}"><i class="fa fa-chevron-right"></i>Clientes</a></li>
               </ul>
             </li>
 
@@ -123,8 +123,8 @@
                  <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="{{url('compras/compra')}}"><i class="fa fa-circle-o"></i>Compras</a></li>
-                <li><a href="{{url('compras/proveedor')}}"><i class="fa fa-circle-o"></i>Proveedores</a></li>
+                <li><a href="{{url('compras/compra')}}"><i class="fa fa-chevron-right"></i>Compras</a></li>
+                <li><a href="{{url('compras/proveedor')}}"><i class="fa fa-chevron-right"></i>Proveedores</a></li>
               </ul>
             </li>
 
@@ -138,7 +138,7 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="{{url('acceso/usuario')}}"><i class="fa fa-circle-o"></i> Usuarios</a></li>
+                <li><a href="{{url('acceso/usuario')}}"><i class="fa fa-chevron-right"></i> Usuarios</a></li>
                 
               </ul>
             </li>
